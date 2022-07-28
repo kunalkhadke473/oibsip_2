@@ -1,0 +1,212 @@
+body{
+  color: #f2800f;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+ .h1{
+  color: #010d0d;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+     
+}
+.hi{
+
+    color: whitesmoke;
+
+}
+h2{
+  color: #f2800f;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+h5  {color: #f2800f;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+ 
+                    }
+p{
+  line-height: 2;
+margin-top: 40px;
+}
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 65px auto;
+  border-width: 5px;    
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.top-container{
+ background-image: url('12.jpg');
+ background-repeat: no-repeat;
+  width: 100%;    
+  position: relative;
+  padding-top: 570px;
+background-color: black;
+}
+
+.top-container h1 {
+    position: absolute;
+    bottom: 300px;
+    left: 1200px;
+}
+.top-container h2 {
+    position: absolute;
+    bottom: 200px;
+    left: 1080px
+}
+.middle-container{
+  margin: 40px 0;
+  margin-top: 100px;
+}
+.bottom-container{
+  background-color: #023f3f;
+  padding: 20px;   
+}
+.pot{
+    margin: 200px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.k-img{
+  width: 15%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.palette-img{
+  float: left;
+  margin-right: 30px;
+    width: 25%
+}
+.idea-img{
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 15px;     
+    width: 25%
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: 200;
+   padding: 12px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CD;
+   background-image: -webkit-linear-gradient(top, #30E3CD, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CD, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CD, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CD, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CD, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/* single-line text, checkbox, and button */
+
+form{
+  padding: 20px;
+  padding-left:10% ;
+}
+input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+select{
+  color:indigo;
+}
+option{
+  color:blue;
+  background: lavenderBlush;
+}
+input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:red;
+}
+
+input[type=submit]{
+  background:darkblue;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+  background:wheat;
+}
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+  background: lightgreen;
+  outline:none;
+}
+.link{
+width:10%;
+padding: 50px;    
+}
